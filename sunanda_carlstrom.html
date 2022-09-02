@@ -4,51 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Document</title>
+
     <style> 
-    .homepage { background-color: rgb(255, 216, 59); 
+    
+        .presentation { background-color: rgb(255, 216, 59); 
         text-align: center; 
-    }
-    body { background-color: rgba(255, 216, 59); 
+        }
+
+        body { background-color: rgba(255, 216, 59); 
         display: flexbox;
         text-align:center;
-    }
-    h1 { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-    font-size: 45px;
-}
-img { width: 300px;
-     border:5px solid orangered; 
-     border-radius: 25px; 
-}
-ul { font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    font-size: 20px; 
-    list-style-position: inside;
-}
-ul.list {
-    text-align: left;
-    display: inline-block; 
-}
+        }
 
-a {
-    text-decoration: none;
-    padding: 10px;
-    margin: 10px;
-}
-.links {
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    font-size: 16px;
-    padding: 10px;
-    margin: 10px;
-}
-   
+        h1 { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+        font-size: 45px;
+        color: rgb(42, 53, 32);
+        }
+
+        img { width: 300px;
+        border:5px solid orangered; 
+        border-radius: 25px; 
+        }
+
+        ul { font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        font-size: 20px; 
+        list-style-position: inside;
+        }
+
+        ul.list {
+        display: inline-block; 
+        }
+
+        a {
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+        }
+
+
+        .links {
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        }
+
+        .gitpage {
+            color: rgb(255, 255, 255);
+            background-color: rgb(4, 12, 9);
+            padding: 10px 12px;
+            margin: 5px;
+            border: none;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            display: inline-block;
+
+        }
+
+        .localpage {
+            color: rgb(255, 249, 249);
+            background-color: rgb(4, 12, 9);
+            padding: 10px;
+            margin: 5px;
+            border: none;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            display: inline-block;
+        }
+
     </style>
+
 </head>
-<iv>
-    <div class="homepage"> 
+<div> 
+    <div class="presentation"> 
         <h1> 
             Sunanda Carlström 
         </h1> 
+       
         <img src="photo_sunanda.jpeg" alt="Photo of Sunanda Carlström" >
+    
+    </div>
+        
     <div class ="list">
         <ul>
             <li> Prata med (nya) människor  </li>
@@ -57,13 +98,13 @@ a {
             <li> Nyfiken och vill lära mig nya saker </li>
         </ul>
     </div>
+    
     <div class ="links"> 
-        <a href="https://github.com/sunandacarlstrom"> Gå till Sunanda Carlströms GitHub sida </a>
+        <button class="gitpage"></button><a href="https://github.com/sunandacarlstrom"> Gå till Sunanda Carlströms GitHub sida </a>
         <br>
-        <br>
-        <a href="index.html"> Gå tillbaka till vår gemensamma GitHub sida</a>
+        <button class="localpage"></button><a href="index.html"> Gå tillbaka till vår gemensamma GitHub sida</a>
     </div>
-    </div>
+    
 </div>
 </body>
 </html>
