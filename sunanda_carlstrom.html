@@ -5,24 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style> 
+    .homepage { background-color: rgb(255, 216, 59); 
+        text-align: center; 
+    }
+    body { background-color: rgba(255, 216, 59); 
+        display: flexbox;
+        text-align:center;
+    }
+    h1 { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 45px;
+}
+img { width: 300px;
+     border:5px solid orangered; 
+     border-radius: 25px; 
+}
+ul { font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 20px; 
+    list-style-position: inside;
+}
+ul.list {
+    text-align: left;
+    display: inline-block; 
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+.links {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+}
+   
+    </style>
 </head>
-<body>
-    <div> 
-        <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"> 
+<iv>
+    <div class="homepage"> 
+        <h1> 
             Sunanda Carlström 
         </h1> 
-        <img src="photo_sunanda.jpeg" alt="Photo of Sunanda Carlström" width="320" style="border:5px solid orangered" >
-        <ol style="font-family: Arial, Helvetica, sans-serif";>
+        <img src="photo_sunanda.jpeg" alt="Photo of Sunanda Carlström" >
+    <div class ="list">
+        <ul>
             <li> Prata med (nya) människor  </li>
             <li> Dansa bugg, fox & lindyhop </li>
             <li> Dricka te & äta choklad </li> 
             <li> Nyfiken och vill lära mig nya saker </li>
-        </ol>
-        <a href="https://github.com/sunandacarlstrom"> Gå till Sunanda Carlströms GitHub sida</a>
+        </ul>
+    </div>
+    <div class ="links"> 
+        <a href="https://github.com/sunandacarlstrom"> Gå till Sunanda Carlströms GitHub sida </a>
         <br>
         <br>
         <a href="index.html"> Gå tillbaka till vår gemensamma GitHub sida</a>
-        </ol>
     </div>
+    </div>
+</div>
 </body>
 </html>
