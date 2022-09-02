@@ -1,40 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presentation: Waqar Jelali</title>
     <style>
-        body{
+        body {
             font-family: 'Courier New', Courier, monospace;
+            margin: auto;
+            background-color: rgb(227, 229, 231);
 
         }
-        h1{
-            color:rgb(36, 34, 32);
+
+        h1 {
+            color: rgb(36, 34, 32);
+
 
         }
-        img{
-            height:300px;
-            width:300px;
-            border-radius: 50%; 
-            border: 5px rgb(45, 82, 12) solid;
+
+        img {
+            height: 350px;
+            width: 350px;
+            border-radius: 50%;
+            border: 15px rgb(82, 199, 235) solid;
+        }
+
+        .list {
+            font-weight: bold;
+            font-size: large;
+            text-align: center;
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        ul.list {
+            text-align: left;
+            display: inline-block;
+        }
+
+        .all {
+            text-align: center;
+
+
+        }
+
+        .gitpage {
+            color: rgb(255, 255, 255);
+            background-color: rgb(12, 117, 82);
+            padding: 10px;
+            margin: 5px;
+            border: none;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            display: inline-block;
+
+        }
+
+        .localpage {
+            color: rgb(255, 249, 249);
+            background-color: rgb(61, 61, 49);
+            padding: 10px;
+            margin: 5px;
+            border: none;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            display: inline-block;
+        }
+
+
+        .links {
+            text-align: center;
+            display: inline-block;
+            margin-top: 20px;
+
         }
     </style>
 </head>
+
 <body>
-    <h1>Waqar Jelali</h1>
-    <img src="waqar.jpg" alt="Waqar Jelali Photo">
-    <ul>
-        <li>Måla</li>
-        <li>Tränna</li>
-        <li>Musik</li>
-        <li>Läsa</li>
-    </ul>
-    <a href="https://github.com/a18waqje">Go Back to Github Page!</a>
-    <br>
-    <a href="index.html">Link to Home Page!</a> 
-    
-    </body>
+    <div class="all">
+        <h1>Waqar Jelali</h1>
+        <div class="image">
+            <img src="waqar.jpg" alt="Waqar Jelali Photo">
+        </div>
+
+
+
+
+        <ul class="list">
+            <li>Måla</li>
+            <li>Träna</li>
+            <li>Musik</li>
+            <li>Läsa</li>
+        </ul>
+        <br>
+        <div class="links">
+            <button class="gitpage"><a href="https://github.com/a18waqje">Go Back to Github Page!</a></button>
+            <br>
+            <button class="localpage"><a href="index.html">Link to Home Page!</a></button>
+        </div>
+    </div>
+
+
 </body>
+</body>
+
 </html>
